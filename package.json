@@ -1,6 +1,6 @@
 {
   "name": "simple-bearer-token-test-helper",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A simple helper module to tests bearer tokens.",
   "main": "index.js",
   "scripts": {
@@ -33,6 +33,7 @@
     "nsp": "^2.6.3"
   },
   "dependencies": {
-    "jsonwebtoken": "^7.4.0"
+    "jsonwebtoken": "^7.4.0",
+    "pem-jwk": "^1.5.1"
   }
 }
