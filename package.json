@@ -1,0 +1,38 @@
+{
+  "name": "simple-bearer-token-test-helper",
+  "version": "0.0.1",
+  "description": "A simple helper module to tests bearer tokens.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine",
+    "posttest": "npm run lint && nsp check",
+    "lint": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devsu/simple-bearer-token-test-helper.git"
+  },
+  "keywords": [
+    "simple",
+    "bearer",
+    "token",
+    "object"
+  ],
+  "author": "Cesar Salazar @ Devsu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/devsu/simple-bearer-token-test-helper/issues"
+  },
+  "homepage": "https://github.com/devsu/simple-bearer-token-test-helper#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "eslint-config-devsu-node": "0.0.3",
+    "jasmine": "^2.6.0",
+    "jasmine-spy": "0.0.2",
+    "keypair": "^1.0.1",
+    "nsp": "^2.6.3"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^7.4.0"
+  }
+}
