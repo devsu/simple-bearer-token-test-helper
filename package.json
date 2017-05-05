@@ -1,6 +1,6 @@
 {
   "name": "simple-bearer-token-test-helper",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "A simple helper module to tests bearer tokens.",
   "main": "index.js",
   "scripts": {
