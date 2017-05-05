@@ -10,7 +10,7 @@ install:
 script:
   - npm test
 addons:
-  apt
+  apt:
     sources:
       - ubuntu-toolchain-r-test
     packages:
